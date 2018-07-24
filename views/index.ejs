@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>CampWast</title>
+        <title><%= title %></title>
         <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous"> -->
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -20,7 +20,7 @@
                             Kategori
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Baju dan Celana</a>
+                            <a class="dropdown-item" href="/baju-celana">Baju dan Celana</a>
                             <a class="dropdown-item" href="#">Peralatan gunung</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Booking Peralatan gunung</a>
@@ -94,7 +94,7 @@
                         <div class="col-sm-3">
                             <div class="card">
                                 <img class="card-img-top" src="/img/baju1.jpeg" alt="Card image cap" style="width: 100%;">
-                                    <div class="card-body">
+                                    <div class="card-body shadow-sm">
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <h6 class="card-title">Baju Eiger</h6>
@@ -108,10 +108,10 @@
                                         <p class="card-text"></p>
                                         <div class="row">
                                             <div class="col-sm-5">
-                                                <a href="#" class="btn btn-primary">Beli</a>
+                                                <a href="" class="btn btn-outline-primary">Beli</a>
                                             </div>
                                             <div class="col-sm-7">
-                                                <a href="#" class="btn btn-success">Add To Card</a>                                                
+                                                <a href="#" class="btn btn-outline-success">Add To Card</a>                                                
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                         <div class="col-sm-3">
                                 <div class="card">
                                         <img class="card-img-top" src="/img/baju1.jpeg" alt="Card image cap" style="width: 100%;">
-                                            <div class="card-body">
+                                            <div class="card-body shadow-sm">
                                                 <div class="row">
                                                     <div class="col-sm-6">
                                                         <h6 class="card-title">Baju Eiger</h6>
@@ -134,10 +134,10 @@
                                                 <p class="card-text"></p>
                                                 <div class="row">
                                                     <div class="col-sm-5">
-                                                        <a href="#" class="btn btn-primary">Beli</a>
+                                                        <a href="#" class="btn btn-outline-primary">Beli</a>
                                                     </div>
                                                     <div class="col-sm-7">
-                                                        <a href="#" class="btn btn-success">Add To Card</a>                                                
+                                                        <a href="#" class="btn btn-outline-success">Add To Card</a>                                                
                                                     </div>
                                                 </div>
                                             </div>
@@ -160,10 +160,10 @@
                                                 <p class="card-text"></p>
                                                 <div class="row">
                                                     <div class="col-sm-5">
-                                                        <a href="#" class="btn btn-primary">Beli</a>
+                                                        <a href="#" class="btn btn-outline-primary">Beli</a>
                                                     </div>
                                                     <div class="col-sm-7">
-                                                        <a href="#" class="btn btn-success">Add To Card</a>                                                
+                                                        <a href="#" class="btn btn-outline-success">Add To Card</a>                                                
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,10 +186,10 @@
                                                 <p class="card-text"></p>
                                                 <div class="row">
                                                     <div class="col-sm-5">
-                                                        <a href="#" class="btn btn-primary">Beli</a>
+                                                        <a href="#" class="btn btn-outline-primary">Beli</a>
                                                     </div>
                                                     <div class="col-sm-7">
-                                                        <a href="#" class="btn btn-success">Add To Card</a>                                                
+                                                        <a href="#" class="btn btn-outline-success">Add To Card</a>                                                
                                                     </div>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h5 style="margin-bottom: 3%;">Booking peralatan gunung</h5>
-                        <table class="table">
+                        <table class="table shadow-sm">
                             <tr>
                                 <th>No</th>
                                 <th>Barang</th>
@@ -248,7 +248,7 @@
                         </table>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card Regular shadow ">
+                        <div class="card Regular shadow-sm">
                             <div class="card-body">
                                 <h3 style="text-align: center;">Login Booking</h3>
                                 <form action="">
@@ -256,7 +256,7 @@
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan email">
                                     <label for="exampleInputEmail1" style="margin-top: 1%;">Password</label>
                                     <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan Password">
-                                    <button class="btn btn-sm btn-margin btn-primary">Login</button><button class="btn btn-sm btn-margin btn-warning">Daftar</button>
+                                    <button class="btn btn-sm btn-margin btn-outline-primary">Login</button><button class="btn btn-sm btn-margin btn-outline-warning">Daftar</button>
                                 </form>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                     </div>
                     <div class="col-sm-4" style="padding: 4%;">
                         <h3>Booking online</h3>
-                          <p>Nomor Wa : 0815167822089</p>
+                          <p>Nomor Wa : 081516782208</p>
                     </div>
                 </div>
             </div>
