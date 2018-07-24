@@ -24,3 +24,6 @@ body {
   background-color: rgb(190, 190, 190);
   color:#000; 
 }
+li {
+  text-decoration: none;
+}
