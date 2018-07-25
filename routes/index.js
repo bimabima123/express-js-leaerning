@@ -14,5 +14,11 @@ router.get('/baju-celana', function(req,res,next) {
 );  
 });
 
+router.get('/peralatan-gunung', function(req,res,next) {
+  res.render('peralatan',
+    {title: "CampWast-Peralatan"}
+);  
+});
+
 
 module.exports = router;
