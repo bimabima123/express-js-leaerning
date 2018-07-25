@@ -21,7 +21,7 @@
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/baju-celana">Baju dan Celana</a>
-                            <a class="dropdown-item" href="#">Peralatan gunung</a>
+                            <a class="dropdown-item" href="/peralatan-gunung">Peralatan gunung</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Booking Peralatan gunung</a>
                           </div>
@@ -256,16 +256,56 @@
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan email">
                                     <label for="exampleInputEmail1" style="margin-top: 1%;">Password</label>
                                     <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan Password">
-                                    <button class="btn btn-sm btn-margin btn-outline-primary">Login</button><button class="btn btn-sm btn-margin btn-outline-warning">Daftar</button>
+                                    <button class="btn btn-sm btn-margin btn-outline-primary">Login</button><button type ="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-sm btn-margin btn-outline-warning">Daftar</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+   
         </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Daftar</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="" method="">
+                          <div class="form-group">
+                                <label for="exampleFormControlFile1">Masukan Nama</label>
+                                <input class="form-control" type="text" placeholder="Masukan Nama">
+                          </div>
+                          <div class="form-group">
+                                <label for="exampleFormControlFile1">Masukan No WhatsApp</label>
+                                <input class="form-control" type="number" placeholder="Masukan Nomor">
+                          </div>
+                          <div class="form-group">
+                                <label for="exampleFormControlFile1">Masukan Email</label>
+                                <input class="form-control" type="Email" placeholder="Masukan Email">
+                          </div>
+                          <div class="form-group">
+                                <label for="exampleFormControlFile1">Masukan Password</label>
+                                <input class="form-control" type="password" placeholder="Masukan Password">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="reset" value="Reset" class="btn btn-danger">Batal</button>
+                            <button type="button" class="btn btn-primary">Daftar</button>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
         <div class="section">
             <div class="footer shadow-sm">
+                <div class="container">
                 <div class="row">
                     <div class="col-sm-4" style="padding: 4%;">
                         <h3>Kontak</h3>
@@ -281,6 +321,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
     </body>
